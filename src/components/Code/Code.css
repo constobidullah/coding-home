@@ -1,0 +1,28 @@
+.code-compo-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: rgba(152, 152, 252, 0.339);
+}
+
+.codes-pass-compo-container{
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.about-coatch{
+    background-color: rgba(124, 224, 255, 0.166);
+}
+
+@media screen and (max-width: 780px) {
+    .codes-pass-compo-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 780px) {
+    .code-compo-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

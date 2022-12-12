@@ -10,3 +10,8 @@
     width: 150px;
     margin-left: 200px;
 }
+
+.header-parents h2{
+    color: rgba(255, 67, 242, 0.514);
+    text-shadow: 2px 2px;
+}

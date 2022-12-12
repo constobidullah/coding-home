@@ -1,0 +1,26 @@
+[
+   {"id": 1,"name": "Children Group Coding", "time": 1, "img":"https://codeweek.eu/images/banner_training.svg", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "10 years old"},
+
+   {"id": 2,"name": "Ladis practice code", "time": 2, "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjZ0FF1XsxLMpQYMriOEMZ6CEzaelvD2EB6YXsoHzJLkZE6ZhnKSZTOnKZmoXOrbtmmPw&usqp=CAU", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "12 years old"},
+
+   {"id": 3,"name": "Alone boy Dark Room coding practice", "time": 3, "img":"https://contentstatic.techgig.com/thumb/msid-75430401,width-460,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "15 years old"},
+
+   {"id": 4,"name": "Hacker vai coding practice", "time": 4, "img":"https://knowtechie.com/wp-content/uploads/2019/10/learn-to-code-bundle-knowtechie-store.jpg", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "17 years old"},
+
+   {"id": 5,"name": "Bigenner of coding line", "time": 6, "img":"https://edtechreview.in/images/teach-your-kids-to-code.jpg", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "22 years old"},
+
+   {"id": 6,"name": "Full-Stack Mama", "time": 7, "img":"https://webnotics.solutions/wp-content/uploads/2021/09/Chief-Programming-Languages-used-for-iOS-App-Development..jpg", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "24 years old"},
+
+   {"id": 7,"name": "Freelancer mama", "time": 6, "img":"https://www.foxtekrs.com/rails/active_storage/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNmpyQmc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c55cfb02d012a88925c891eedaa6b36f82bb438a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCam9MY21WemFYcGxTU0lOT0RBd2VEWTFNRHdHT2daRlZBPT0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--63084d8e69e9a10abc38b54bbf8cc5ec3580de48/5a4a03f9", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "26 years old"},
+
+   {"id": 8,"name": "Remote job in coding world ", "time": 3, "img":"https://imageio.forbes.com/specials-images/imageserve/61113102fb6eac3c9e419c4e/Young-handsome-male-20-years-old-in-eyeglasses-sitting-at-street-cafe-during-free/960x0.jpg?format=jpg&width=960", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "27 years old"},
+
+   {"id": 9,"name": "Divorce digital marketing and practice coding", "time": 4, "img":"https://www.ama.org/wp-content/uploads/2021/10/AdobeStock_219101232.jpg?resize=1327%2C538", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "25 years old"},
+
+   {"id": 10,"name": "Problem solver at web dev sector", "time": 3, "img":"https://www.jonesday.com/-/media/files/publications/2019/05/when-coding-is-criminal/when-coding-is-criminal.jpg?h=800&w=1600&la=en&hash=5522AA91198A168017C511FCBE77E201", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "26 years old"},
+
+   {"id": 11,"name": "Coding relaxing music", "time": 4, "img":"https://i.ytimg.com/vi/FuaQ1QhJOkc/maxresdefault.jpg", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "29 years old"},
+
+   {"id": 12,"name": "Coding person Brain", "time": 3, "img":"https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/03/brain-programming.jpg", "rules": "20-10am", "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus cum culpa veritatis voluptate eos.", "age": "30 years old"}
+   
+]
