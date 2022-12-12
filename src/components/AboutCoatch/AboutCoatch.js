@@ -1,19 +1,25 @@
 import React from 'react';
 import logo from '../../image/guru.png';
-import { toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './AboutCoatch.css'
 
-// toast.configure();
-
 const AboutCoatch = () => {
+
     const notify = () => {
-        toast("Toast basic learning")
+        toast.success("Activity complete", {
+            position: "top-center",
+            // hideProgressBar: false,
+            // closeOnClick: true,
+            // pauseOnHover: true,
+            draggable: true,
+            progress: 100,
+            theme: "dark",
+        })
     }
+
     return (
         <div className='about-coatch-container'>
-
-            <button onClick={notify}>Click me</button>
 
             <div className='info'>
                 <img src={logo} alt="" />
@@ -60,8 +66,19 @@ const AboutCoatch = () => {
                 <p>Minute</p>
             </div>
 
+            <ToastContainer
+                position="top-center"
+                // hideProgressBar={false}
+                newestOnTop={false}
+                // closeOnClick
+                rtl={false}
+                // pauseOnFocusLoss
+                draggable
+                // pauseOnHover
+                theme="dark"
+            ></ToastContainer>
             <div className='activity-complete-btn'>
-                <button>Activity complete</button>
+                <button onClick={notify}>Activity complete</button>
             </div>
 
         </div>
