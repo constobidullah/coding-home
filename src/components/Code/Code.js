@@ -6,21 +6,33 @@ import './Code.css'
 const Code = () => {
 
     const [codes, setCodes] = useState([]);
+    const [cart, setCart] = useState([]);
+
+
     useEffect(() => {
         fetch('codeFakeApi.json')
         .then(res => res.json())
         .then(data => setCodes(data))
     }, [])
 
+    const handleList = (code) => {
+        const newCart = [...cart, code];
+        setCart(newCart)
+    }
+
     return (
         <div className='code-compo-container'>
             <div className='codes-pass-compo-container'>
                 {
-                    codes.map(code => <CodeDetails key={code.id} code={code}></CodeDetails>)
+                    codes.map(code => <CodeDetails 
+                        key={code.id} 
+                        code={code}
+                        handleList={handleList}
+                        ></CodeDetails>)
                 }
             </div>
             <div className='about-coatch'>
-                <AboutCoatch></AboutCoatch>
+                <AboutCoatch cart={cart}></AboutCoatch>
             </div>
         </div>
     );

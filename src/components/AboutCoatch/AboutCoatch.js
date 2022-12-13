@@ -4,17 +4,26 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './AboutCoatch.css'
 
-const AboutCoatch = () => {
+const AboutCoatch = ({ cart }) => {
+
+    let hours = 0;
+    for (const timeId of cart) {
+        hours = hours + timeId.time;
+    }
 
     const notify = () => {
-        toast.success("Activity complete", {
+        toast(`Wow!! That's awesome
+             Your successfully done your
+            ${hours}!! hours coding activity 
+            Congratulations dear !!
+            `, {
             position: "top-center",
             // hideProgressBar: false,
             // closeOnClick: true,
             // pauseOnHover: true,
             draggable: true,
             progress: 100,
-            theme: "dark",
+            theme: "light",
         })
     }
 
@@ -58,7 +67,7 @@ const AboutCoatch = () => {
             <h3>Coding details </h3>
             <div className='coding-time'>
                 <h4>Coding time</h4>
-                <p>Hours</p>
+                <p>{hours} Hours</p>
             </div>
 
             <div className='coding-break'>
@@ -75,7 +84,7 @@ const AboutCoatch = () => {
                 // pauseOnFocusLoss
                 draggable
                 // pauseOnHover
-                theme="dark"
+                theme="colored"
             ></ToastContainer>
             <div className='activity-complete-btn'>
                 <button onClick={notify}>Activity complete</button>
