@@ -14,6 +14,14 @@
     background-color: rgba(124, 224, 255, 0.166);
 }
 
+@media screen and (max-width: 860px) and (min-width: 800px) {
+    .codes-pass-compo-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 30px 115px;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .codes-pass-compo-container{
         display: grid;
@@ -21,6 +29,14 @@
         margin: 33px;
     }
 }
+
+@media screen and (max-width: 860px) {
+    .code-compo-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .code-compo-container{
         display: grid;
